@@ -20,10 +20,6 @@ function inicializarTudo() {
 // ====================================
 // MENU MOBILE
 // ====================================
-function menuMobile() {
-    const btnMenu = document.querySelector('.btn-menu');
-    const menu = document.querySelector('nav');
-    
     if (btnMenu && menu) {
         btnMenu.addEventListener('click', () => {
             menu.classList.toggle('ativo');
