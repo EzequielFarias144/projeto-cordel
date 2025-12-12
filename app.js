@@ -20,11 +20,7 @@ function inicializarTudo() {
 // ====================================
 // MENU MOBILE
 // ====================================
-    if (btnMenu && menu) {
-        btnMenu.addEventListener('click', () => {
-            menu.classList.toggle('ativo');
-            btnMenu.classList.toggle('ativo');
-        });
+ 
 
         // Fechar menu ao clicar em um link
         const links = menu.querySelectorAll('a');
